@@ -7,6 +7,17 @@ body * {
 }
 
 body {
+    width: 100%;
+    min-height: 100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
+}
+
+body > div {
+    width: 100%;
+}
+
+.main-content {
+    min-height: calc(100vh - 14rem);
+    padding: 3rem;
 }

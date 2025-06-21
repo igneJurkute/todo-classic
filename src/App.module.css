@@ -1,7 +1,7 @@
 .app {
-    display: grid;
-    gap: 3rem;
-    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     justify-content: center;
 }
 
